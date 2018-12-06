@@ -5,6 +5,10 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
+
+set(CMAKE_EXE_LINKER_FLAGS
+"${CMAKE_EXE_LINKER_FLAGS} -funwind-tables -Wl,--no-merge-exidx-entries")
+
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.

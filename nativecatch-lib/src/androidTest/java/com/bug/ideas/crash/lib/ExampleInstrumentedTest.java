@@ -1,4 +1,4 @@
-package com.bug.ideas.crach.lib;
+package com.bug.ideas.crash.lib;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
